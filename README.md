@@ -173,3 +173,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Security reports go through
 ## License
 
 [MIT](LICENSE)
+
+## Stellar Network Config Validation\n\nThe application must verify at startup that STELLAR_NETWORK matches the Horizon URL being used. Mismatched config silently routes mainnet transactions through testnet Horizon, causing all payments to fail.
